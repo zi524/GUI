@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)file:///E:/Robo_Tech/taskkkk/GUI/trial/student.html -->
+<html lang="en" style="
+    background-blend-mode: hard-light;
+"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS Client App</title>
+    <link rel="stylesheet" style="
+    margin-left: 30px;
+">
+</head>
+<body>
+    <header style="
+    margin-right: 50px;
+">
+        <nav>
+            <ul style="
+    margin-left: 30px;
+    padding: 30px;
+    background-color: antiquewhite;
+">
+                <li><a href="Document.html">All Students</a></li>
+            </ul>
+        </nav>
+    </header>
+        <section id="create-student">
+            <h2 style="
+    margin-left: 400px;
+    color: brown;
+    height: 40px;
+    font-style: italic;
+    size: 54px;
+    font-size: xxx-large;
+">Create Student Page</h2>
+            <form id="create-student-form">
+                <label for="student-name" style="
+    margin-left: 30px;
+    font-size: x-large;
+">Name:</label>
+                <input type="text" id="student-name" required="">
+                <label for="student-age" style="
+    margin-left: 60px;
+    font-size: x-large;
+">Age:</label>
+                <input type="number" id="student-age" required="" style="
+    height: 34px;
+    width: 76px;
+    margin-left: 2px;
+">
+                <button type="submit" id="submit" style="border: cyan;padding-left: 10px;height: 50px;width: 148px;margin-left: 170px;margin-top: 50px;">Create Student</button>
+            </form>
+        </section>
+        <section id="all-students" style="
+    margin-top: 102px;
+    margin-left: 50px;
+    background: beige;
+    margin-right: 50px;
+">
+            <h2>All Students</h2>
+            <table id="students-table" style="
+    font-size: xx-large;
+    margin-left: 250px;
+">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                    </tr>
+                </thead>
+                <tbody id="students-list"><tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>20</td>
+                    </tr><tr>
+                        <td>2</td>
+                        <td>Jane Smith</td>
+                        <td>22</td>
+                    </tr><tr>
+                        <td>3</td>
+                        <td>Michael Johnson</td>
+                        <td>21</td>
+                    </tr></tbody>
+            </table>
+        </section>
+        <script src="student.js"></script>
+    
+
+</body></html>
